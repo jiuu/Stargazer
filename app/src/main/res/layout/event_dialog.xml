@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="New Spot"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/edt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:gravity="top"
+        android:hint="Title"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="2"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:gravity="top"
+        android:hint="Longitude"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="3"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:gravity="top"
+        android:hint="Latitude"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="3"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif"
+        android:gravity="top"
+        android:hint="Info"
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="3"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+</LinearLayout>
